@@ -17,6 +17,7 @@ export default function Portfolio() {
       {/* Main Sections */}
       <section className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6">
 
+<<<<<<< HEAD
         {/* About (업데이트됨) */}
         <div className="rounded-2xl shadow bg-white p-6">
           <h2 className="text-xl font-semibold mb-3">소개</h2>
@@ -28,6 +29,15 @@ export default function Portfolio() {
             단순한 언어 능력을 넘어, 미래 대한민국 외교부 장관을 꿈꾸며
             한국과 세계를 잇는 가교 역할을 수행하고자 합니다.
             다양한 실무 경험을 바탕으로 넓은 시야와 실행력을 갖춘 인재로 성장하고 있습니다.
+=======
+        {/* About */}
+        <div className="rounded-2xl shadow bg-white p-6">
+          <h2 className="text-xl font-semibold mb-2">소개</h2>
+          <p>
+            상하이 화동사범대학 한어언 전공 재학 중이며,
+            다국어 능력을 기반으로 글로벌 커뮤니케이션과
+            콘텐츠 제작 경험을 보유하고 있습니다.
+>>>>>>> dd46bb02a76a41abb3ffbc123506c77cb6c26622
           </p>
         </div>
 
@@ -53,6 +63,7 @@ export default function Portfolio() {
           </ul>
         </div>
 
+<<<<<<< HEAD
         {/* Contact (명함 스타일 유지) */}
         <div className="rounded-2xl shadow bg-white p-6">
           <h2 className="text-xl font-semibold mb-3">Contact</h2>
@@ -100,3 +111,51 @@ export default function Portfolio() {
     </div>
   );
 }
+=======
+{/* Contact */}
+<div className="rounded-2xl shadow bg-white p-6">
+  <h2 className="text-xl font-semibold mb-3">Contact</h2>
+
+  <p className="mb-3">Email: minseo3466@naver.com</p>
+
+  <div className="space-y-2">
+
+    {/* Line */}
+    <div className="flex items-center gap-3">
+      <img
+        src="https://img.icons8.com/ios-filled/50/ef8a1b/line-me.png"
+        alt="Line"
+        className="w-5 h-5"
+      />
+      <span>Line</span>
+    </div>
+
+    {/* WeChat */}
+    <div className="flex items-center gap-3">
+      <img
+        src="https://img.icons8.com/ios/50/ef8a1b/weixing.png"
+        alt="WeChat"
+        className="w-5 h-5"
+      />
+      <span>WeChat</span>
+      <span className="ml-3">-</span>
+      <span>kim71137113</span>
+    </div>
+
+    {/* KakaoTalk */}
+    <div className="flex items-center gap-3">
+      <img
+        src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/ef8a1b/external-kakaotalk-or-katalk-is-a-free-mobile-instant-messaging-application-for-smartphones-logo-bold-tal-revivo.png"
+        alt="KakaoTalk"
+        className="w-5 h-5"
+      />
+      <span>KakaoTalk</span>
+    </div>
+
+  </div>
+</div>
+      </section>
+    </div>
+  );
+}
+>>>>>>> dd46bb02a76a41abb3ffbc123506c77cb6c26622
