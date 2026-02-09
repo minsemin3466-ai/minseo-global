@@ -25,7 +25,7 @@ export default function Portfolio() {
             <span className="font-semibold text-black"> 상하이의 格致中学와 St. Paul American School를 복수 졸업</span>하여
             체득한 다국어 능력과 글로벌 감각을 보유하고 있습니다.
             <br /><br />
-            단순한 언어 능력을 넘어, 미래 대한민국 외교부 장관을 꿈꾸며
+            단순한 언어 능력을 넘어, 더 나은 미래를 위해
             한국과 세계를 잇는 가교 역할을 수행하고자 합니다.
             다양한 실무 경험을 바탕으로 넓은 시야와 실행력을 갖춘 인재로 성장하고 있습니다.
           </p>
