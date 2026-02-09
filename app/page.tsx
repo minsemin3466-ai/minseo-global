@@ -14,7 +14,6 @@ export default function Portfolio() {
       </header>
 
       <section className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6">
-        {/* 소개 */}
         <div className="rounded-2xl shadow bg-white p-6">
           <h2 className="text-xl font-semibold mb-3">소개</h2>
           <p className="leading-relaxed text-gray-700">
@@ -28,41 +27,33 @@ export default function Portfolio() {
           </p>
         </div>
 
-        {/* Skills */}
         <div className="rounded-2xl shadow bg-white p-6">
           <h2 className="text-xl font-semibold mb-2">Skills</h2>
-          <ul className="list-disc ml-5 space-y-1">
+          <ul className="list-disc ml-5 space-y-1 text-gray-700">
             <li>한국어 / 중국어 / 영어 / 일본어</li>
-            <li>영상 편집</li>
-            <li>콘텐츠 기획</li>
-            <li>글로벌 마케팅</li>
+            <li>영상 편집 / 콘텐츠 기획 / 글로벌 마케팅</li>
           </ul>
         </div>
 
-        {/* Experience */}
         <div className="rounded-2xl shadow bg-white p-6">
           <h2 className="text-xl font-semibold mb-2">경험</h2>
-          <ul className="list-disc ml-5 space-y-1">
+          <ul className="list-disc ml-5 space-y-1 text-gray-700">
             <li>농심 상해 법인 글로벌 서포터즈</li>
-            <li>차이나조이 통역</li>
+            <li>차이나조이 / SIAL Shanghai 통역</li>
             <li>국제 수입 박람회 진행요원</li>
-            <li>SIAL Shanghai 오뚜기 전시관 통역</li>
           </ul>
         </div>
 
-        {/* Contact */}
         <div className="rounded-2xl shadow bg-white p-6">
           <h2 className="text-xl font-semibold mb-3">Contact</h2>
-          <p className="mb-3">Email: minseo3466@naver.com</p>
-          <div className="space-y-2">
-            <div className="flex items-center gap-3">
-              <img src="https://img.icons8.com/ios-filled/50/ef8a1b/line-me.png" alt="Line" className="w-5 h-5" />
-              <span>Line</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <img src="https://img.icons8.com/ios/50/ef8a1b/weixing.png" alt="WeChat" className="w-5 h-5" />
-              <span>WeChat</span>
-              <span className="ml-3">- kim71137113</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <img src="
+          <p className="text-gray-700 mb-3">Email: minseo3466@naver.com</p>
+          <div className="space-y-2 text-gray-700">
+            <p>Line: |</p>
+            <p>WeChat: - kim71137113</p>
+            <p>KakaoTalk: |</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
