@@ -1,7 +1,8 @@
+import React from 'react';
+
 export default function Portfolio() {
   return (
     <div className="min-h-screen bg-gray-50 p-6">
-      {/* Header */}
       <header className="max-w-5xl mx-auto mb-10">
         <h1 className="text-4xl font-bold mb-2">김민서 | Portfolio</h1>
         <p className="text-lg font-semibold text-gray-800">
@@ -12,10 +13,8 @@ export default function Portfolio() {
         </p>
       </header>
 
-      {/* Main Sections */}
       <section className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6">
-
-        {/* About */}
+        {/* 소개 */}
         <div className="rounded-2xl shadow bg-white p-6">
           <h2 className="text-xl font-semibold mb-3">소개</h2>
           <p className="leading-relaxed text-gray-700">
@@ -66,13 +65,4 @@ export default function Portfolio() {
               <span className="ml-3">- kim71137113</span>
             </div>
             <div className="flex items-center gap-3">
-              <img src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/ef8a1b/external-kakaotalk-or-katalk-is-a-free-mobile-instant-messaging-application-for-smartphones-logo-bold-tal-revivo.png" alt="KakaoTalk" className="w-5 h-5" />
-              <span>KakaoTalk</span>
-            </div>
-          </div>
-        </div>
-
-      </section>
-    </div>
-  );
-}
+              <img src="
