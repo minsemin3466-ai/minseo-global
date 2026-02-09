@@ -17,16 +17,16 @@ export default function Portfolio() {
       {/* Main Sections */}
       <section className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6">
 
-        {/* About (최신 업데이트 버전) */}
+        {/* About (가독성 개선 버전) */}
         <div className="rounded-2xl shadow bg-white p-6">
           <h2 className="text-xl font-semibold mb-3">소개</h2>
           <p className="leading-relaxed text-gray-700">
-            국제중국어교육학부 중국어 전공 예정이며,
-            <span className="font-semibold text-black"> 상하이의 格致中学와 St. Paul American School를 복수 졸업</span>하여
-            체득한 다국어 능력과 글로벌 감각을 보유하고 있습니다.
+            국제중국어교육학부 중국어 전공 예정이며, <br />
+            상하이의 <span className="font-semibold text-black">格致中学와 St. Paul American School를</span> <br />
+            <span className="font-semibold text-black">복수 졸업</span>하여 체득한 다국어 능력과 글로벌 감각을 보유하고 있습니다.
             <br /><br />
-            단순한 언어 능력을 넘어, 더 나은 미래를 위해
-            한국과 세계를 잇는 가교 역할을 수행하고자 합니다.
+            단순한 언어 능력을 넘어, 미래 대한민국 외교부 장관을 꿈꾸며 <br />
+            한국과 세계를 잇는 가교 역할을 수행하고자 합니다. <br />
             다양한 실무 경험을 바탕으로 넓은 시야와 실행력을 갖춘 인재로 성장하고 있습니다.
           </p>
         </div>
