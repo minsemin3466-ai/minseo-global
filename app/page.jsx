@@ -17,23 +17,23 @@ export default function Portfolio() {
       {/* Main Sections */}
       <section className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6 text-gray-700">
 
-        {/* 소개 */}
-        <div className="rounded-2xl shadow bg-white p-6">
-          <h2 className="text-xl font-semibold mb-3 text-black">소개</h2>
+        {/* 소개 (수정됨) */}
+        <div className="rounded-2xl shadow bg-white p-6 hover:shadow-lg transition-shadow">
+          <h2 className="text-xl font-semibold mb-3 text-black border-b pb-2">소개</h2>
           <p className="leading-relaxed">
             국제중국어교육학부 중국어 전공 예정이며, <br />
             상하이의 <span className="font-semibold text-black">格致中学와 St. Paul American School를</span> <br />
             <span className="font-semibold text-black">복수 졸업</span>하여 체득한 다국어 능력과 글로벌 감각을 보유하고 있습니다.
             <br /><br />
-            단순한 언어 능력을 넘어, 미래 대한민국 외교부 장관을 꿈꾸며 <br />
+            단순한 언어 능력을 넘어, 더 나은 미래를 위해 <br />
             한국과 세계를 잇는 가교 역할을 수행하고자 합니다. <br />
             다양한 실무 경험을 바탕으로 넓은 시야와 실행력을 갖춘 인재로 성장하고 있습니다.
           </p>
         </div>
 
         {/* Skills */}
-        <div className="rounded-2xl shadow bg-white p-6">
-          <h2 className="text-xl font-semibold mb-2 text-black">Skills</h2>
+        <div className="rounded-2xl shadow bg-white p-6 hover:shadow-lg transition-shadow">
+          <h2 className="text-xl font-semibold mb-2 text-black border-b pb-2">Skills</h2>
           <ul className="list-disc ml-5 space-y-1">
             <li>한국어 / 중국어 / 영어 / 일본어</li>
             <li>영상 편집 / 콘텐츠 기획</li>
@@ -42,8 +42,8 @@ export default function Portfolio() {
         </div>
 
         {/* 경험 */}
-        <div className="rounded-2xl shadow bg-white p-6">
-          <h2 className="text-xl font-semibold mb-2 text-black">경험</h2>
+        <div className="rounded-2xl shadow bg-white p-6 hover:shadow-lg transition-shadow">
+          <h2 className="text-xl font-semibold mb-2 text-black border-b pb-2">경험</h2>
           <ul className="list-disc ml-5 space-y-1">
             <li>농심 상해 법인 글로벌 서포터즈</li>
             <li>차이나조이 / SIAL Shanghai 통역</li>
@@ -51,22 +51,47 @@ export default function Portfolio() {
           </ul>
         </div>
 
-        {/* Contact */}
-        <div className="rounded-2xl shadow bg-white p-6">
-          <h2 className="text-xl font-semibold mb-3 text-black">Contact</h2>
-          <p className="mb-3">Email: minseo3466@naver.com</p>
-          <div className="space-y-3">
+        {/* Contact (아이콘 적용됨) */}
+        <div className="rounded-2xl shadow bg-white p-6 hover:shadow-lg transition-shadow">
+          <h2 className="text-xl font-semibold mb-4 text-black border-b pb-2">Contact</h2>
+          
+          <div className="space-y-4">
+            {/* Email */}
+            <p className="flex items-center gap-2 mb-4">
+              <span className="font-bold">Email:</span> minseo3466@naver.com
+            </p>
+
+            {/* Line */}
             <div className="flex items-center gap-3">
-              <span className="font-medium">Line</span>
+              <img 
+                src="https://img.icons8.com/ios-filled/50/ef8a1b/line-me.png" 
+                alt="Line" 
+                className="w-8 h-8" 
+              />
+              <span className="font-medium min-w-[80px]">Line</span>
               <span className="text-gray-400">|</span>
             </div>
+
+            {/* WeChat */}
             <div className="flex items-center gap-3">
-              <span className="font-medium">WeChat</span>
+              <img 
+                src="https://img.icons8.com/ios/50/ef8a1b/weixing.png" 
+                alt="WeChat" 
+                className="w-8 h-8" 
+              />
+              <span className="font-medium min-w-[80px]">WeChat</span>
               <span className="text-gray-400">-</span>
-              <span>kim71137113</span>
+              <span className="font-bold text-gray-800">kim71137113</span>
             </div>
+
+            {/* KakaoTalk */}
             <div className="flex items-center gap-3">
-              <span className="font-medium">KakaoTalk</span>
+              <img 
+                src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/ef8a1b/external-kakaotalk-or-katalk-is-a-free-mobile-instant-messaging-application-for-smartphones-logo-bold-tal-revivo.png" 
+                alt="KakaoTalk" 
+                className="w-8 h-8" 
+              />
+              <span className="font-medium min-w-[80px]">KakaoTalk</span>
               <span className="text-gray-400">|</span>
             </div>
           </div>
