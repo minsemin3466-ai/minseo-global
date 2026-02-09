@@ -17,7 +17,7 @@ export default function Portfolio() {
       {/* Main Sections */}
       <section className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6 text-gray-700">
 
-        {/* 소개 (수정됨) */}
+        {/* 소개 */}
         <div className="rounded-2xl shadow bg-white p-6 hover:shadow-lg transition-shadow">
           <h2 className="text-xl font-semibold mb-3 text-black border-b pb-2">소개</h2>
           <p className="leading-relaxed">
@@ -51,7 +51,7 @@ export default function Portfolio() {
           </ul>
         </div>
 
-        {/* Contact (아이콘 적용됨) */}
+        {/* Contact */}
         <div className="rounded-2xl shadow bg-white p-6 hover:shadow-lg transition-shadow">
           <h2 className="text-xl font-semibold mb-4 text-black border-b pb-2">Contact</h2>
           
@@ -72,7 +72,7 @@ export default function Portfolio() {
               <span className="text-gray-400">|</span>
             </div>
 
-            {/* WeChat */}
+            {/* WeChat (구분선 | 로 변경됨) */}
             <div className="flex items-center gap-3">
               <img 
                 src="https://img.icons8.com/ios/50/ef8a1b/weixing.png" 
@@ -80,16 +80,16 @@ export default function Portfolio() {
                 className="w-8 h-8" 
               />
               <span className="font-medium min-w-[80px]">WeChat</span>
-              <span className="text-gray-400">-</span>
+              <span className="text-gray-400">|</span>
               <span className="font-bold text-gray-800">kim71137113</span>
             </div>
 
-            {/* KakaoTalk */}
+            {/* KakaoTalk (새 아이콘 + 2px 작게 조정됨) */}
             <div className="flex items-center gap-3">
               <img 
                 src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/24/ef8a1b/external-kakaotalk-or-katalk-is-a-free-mobile-instant-messaging-application-for-smartphones-logo-bold-tal-revivo.png" 
                 alt="KakaoTalk" 
-                className="w-8 h-8" 
+                className="w-[30px] h-[30px]" 
               />
               <span className="font-medium min-w-[80px]">KakaoTalk</span>
               <span className="text-gray-400">|</span>
