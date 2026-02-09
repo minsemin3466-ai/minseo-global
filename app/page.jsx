@@ -17,7 +17,7 @@ export default function Portfolio() {
       {/* Main Sections */}
       <section className="max-w-5xl mx-auto grid md:grid-cols-2 gap-6 text-gray-700">
 
-        {/* About (가독성 개선 완료) */}
+        {/* 소개 */}
         <div className="rounded-2xl shadow bg-white p-6">
           <h2 className="text-xl font-semibold mb-3 text-black">소개</h2>
           <p className="leading-relaxed">
@@ -41,7 +41,7 @@ export default function Portfolio() {
           </ul>
         </div>
 
-        {/* Experience */}
+        {/* 경험 */}
         <div className="rounded-2xl shadow bg-white p-6">
           <h2 className="text-xl font-semibold mb-2 text-black">경험</h2>
           <ul className="list-disc ml-5 space-y-1">
